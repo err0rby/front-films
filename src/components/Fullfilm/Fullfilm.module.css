@@ -1,0 +1,59 @@
+.mainFull {
+    width: 100%;
+}
+
+.filmCard {
+    display: flex;
+    width: 100%;
+}
+
+.filmimg {
+    width: 35%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    object-fit: cover;
+}
+
+.filmimg img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.filminfo {
+    box-sizing: border-box;
+    padding: 20px 25px;
+    word-break: break-all;
+}
+
+.filmact, .filmteg {
+    display: flex;
+}
+
+.fl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cent {
+    margin: 5px 10px;
+}
+
+.lik, .ot, .bl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bl button {
+    background-color: transparent;
+    border: none;
+}
+
+.comment {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    width: 40%;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
