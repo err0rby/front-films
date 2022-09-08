@@ -8,7 +8,6 @@ import styles from './Auth.module.css'
 const SignUp = () => {
     const [login, setLogin] = useState('')
     const [password, setPassword] = useState('')
-
     const dispatch = useDispatch()
 
     const handleSetName = (e) => {
@@ -23,7 +22,6 @@ const SignUp = () => {
         e.preventDefault();
         dispatch(authSignUp({ login, password }))
     }
-
 
     return (
         <>

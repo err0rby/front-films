@@ -7,7 +7,6 @@ import Fullfilm from "./components/Fullfilm/Fullfilm";
 import MainPage from "./components/MainPage/MainPage";
 
 function App() {
-
   const token = useSelector(state => state.applicationSlice.token);
 
   if (token) {

@@ -5,11 +5,9 @@ import { filterMovie } from '../../features/filmsSlice';
 import style from './Header.module.css'
 
 const Header = () => {
-
     const [text,setText] = useState('')
     const token = useSelector(state => state.applicationSlice.token);
     const dispatch = useDispatch();
-
 
     useEffect(() => {
         dispatch(filterMovie(text))

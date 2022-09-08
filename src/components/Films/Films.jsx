@@ -9,7 +9,6 @@ const Films = () => {
     const dispatch = useDispatch();
     const films = useSelector(state => state.filmsSlice.filmFil);
  
-
     useEffect(() => {
         dispatch(fetchFilms());
     }, [dispatch])

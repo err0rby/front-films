@@ -8,7 +8,6 @@ import styles from './Auth.module.css'
 const SignIn = () => {
     const [login, setLogin] = useState('')
     const [password, setPassword] = useState()
-
     const dispatch = useDispatch();
 
     const handleSetName = (e) => {
