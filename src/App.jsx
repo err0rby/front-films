@@ -5,6 +5,7 @@ import SignUp from "./components/Auth/SignUp";
 import Films from "./components/Films/Films";
 import Fullfilm from "./components/Fullfilm/Fullfilm";
 import MainPage from "./components/MainPage/MainPage";
+import Admin from "./Admin/Admin";
 
 function App() {
   const token = useSelector(state => state.applicationSlice.token);
@@ -13,6 +14,7 @@ function App() {
     return (
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/admin" element={<Admin />} />
         <Route path="/films" element={<Films />} />
         <Route path="/films/:id" element={<Fullfilm />} />
         <Route path="/signin" element={<Navigate to='/'/>} />

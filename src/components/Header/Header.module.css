@@ -1,20 +1,11 @@
-.headerLogo {
+/* .headerLogo {
     background-color: rgba(18, 18, 18, 0.822);
     width: 100%;
     height: 13%;
     display: flex;
 }
 
-.lin {
-    text-decoration: none;
-}
 
-.logo {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .inp {
     margin-top: 20px;
@@ -28,10 +19,6 @@
     color: azure;
 }
 
-.logo h1 {
-    text-shadow: 4px 1px 8px black, 0 0 1em red;
-    color: rgba(203, 14, 14, 0.89);
-}
 
 .info {
     display: flex;
@@ -50,4 +37,132 @@
     font-size: 20px;
     background-color: transparent;
     border: none;
+} */
+
+.first_Head {
+    width: 100%;
+    height: 100px;
+    background-color: #292929;
+    font-family: 'Bangers', cursive;
+}
+
+.oneBlock {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.twoBlock {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: #7d7d7d;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.text img {
+    width: 35px;
+    height: 33px;
+    padding: 11px 13px 0 0;
+}
+
+.slesh {
+    color: #7d7d7d;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+/* ////////////////////////////////////////// Второй хэд //////////////////////////////////////////////// */
+.lin {
+    text-decoration: none;
+}
+
+.logo h1 {
+    text-shadow: 4px 1px 4px black, 0 0 1em rgb(162, 255, 0);
+    color: rgba(74, 203, 14, 0.927);
+}
+
+.second_Head {
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 55px;
+    left: 15%;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlocksOne {
+    width: 30%;
+    background-color: rgb(161, 161, 161);
+}
+
+.just {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.just button {
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+}
+
+.just button:hover {
+    border-bottom: 2px solid white;
+}
+
+.BlocksTwo {
+    width: 70%;
+    background-color: #a2c046;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10000000;
+}
+
+.hedImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkText {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 17px;
+    text-decoration: none;
+    padding: 32px 20px 5px 20px;
+    margin-bottom: 33px;
+}
+
+.linkText:focus {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 17px;
+    text-decoration: none;
+    padding: 32px 20px 5px 20px;
+    border-bottom: 2.5px solid #ffffff;
+}
+
+.text_tele img {
+    width: 40px;
+    height: 30px;
+
 }
