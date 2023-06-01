@@ -91,6 +91,7 @@ const SignUp = () => {
                             </form>
                         </div>
                         <br />
+                        
                         <div className={styles.controlGroup}>
                             <form>
                                 <input
