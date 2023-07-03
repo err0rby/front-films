@@ -33,7 +33,7 @@ body {
 }
 
 .filminfo {
-    
+
     box-sizing: border-box;
     padding: 20px 25px;
     word-break: break-all;
@@ -42,13 +42,13 @@ body {
 .filmact,
 .filmteg {
     display: flex;
-    
+
 }
 
 .fl {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .cent {
@@ -62,7 +62,7 @@ body {
 .bl {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .bl button {
@@ -89,12 +89,35 @@ body {
 } */
 
 .request {
+    width: 50%;
     height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background: url("https://demos.qreativethemes.com/thelandscaper/wp-content/uploads/sites/2/2020/04/leafs_dark.png");
+}
+
+.owmreq {
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.textReq {
+    width: 50%;
+    font-size: 22px;
+}
+
+.requ {
+    width: 50%;
+    text-align: center;
+    color: white;
+    background: url("https://demos.qreativethemes.com/thelandscaper/wp-content/uploads/sites/2/2020/04/leafs_dark.png");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .request h2 {
@@ -109,7 +132,6 @@ body {
     color: #fff;
     border-radius: 5px;
     padding: 10px 25px;
-    /* font-family: 'Lato', sans-serif; */
     font-weight: 500;
     background: transparent;
     cursor: pointer;
@@ -121,8 +143,71 @@ body {
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
     background-color: #a2c046;
-    /* background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%); */
     border: none;
     z-index: 1;
     font-size: 15px;
+}
+
+.inpVal {
+    border: 0;
+    outline: 1px solid #a2c046;
+    border-radius: 7px;
+}
+
+.sendBut {
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    background-color: #a2c046;
+    border: none;
+    z-index: 1;
+    font-size: 15px;
+}
+
+.mainWork {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.workers {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.workCard {
+    width: 20%;
+    height: 300px;
+    background: url("https://demos.qreativethemes.com/thelandscaper/wp-content/uploads/sites/2/2020/04/leafs_dark.png");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    color: white;
+}
+
+.zagolovok,
+.workLine {
+    text-align: center;
+}
+
+.workImg img {
+    width: 180px;
+    height: 160px;
+    border-radius: 6px;
 }

@@ -62,7 +62,7 @@ const Header = () => {
                         <Link to="/" className={styles.linkText}> <h4>Главная</h4> </Link>
                         <Link to="/films" className={styles.linkText}> <h4>Сервисы</h4> </Link>
                         <Link to="/beforeafter" className={styles.linkText}> <h4>Проекты</h4> </Link>
-                        <Link to="/workers" className={styles.linkText}> <h4>О нас</h4> </Link>
+                        <Link to="/avaria" className={styles.linkText}> <h4>Аварийный случай</h4> </Link>
                     </div>
                 </div>
             </div>

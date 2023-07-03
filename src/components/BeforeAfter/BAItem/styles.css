@@ -1,0 +1,213 @@
+.gallery_img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery_info {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.gallery_info p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(173, 33, 33);
+    text-align: center;
+}
+
+.gallery_info p:last-child {
+    padding-top: 20px;
+    margin: auto;
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(135, 135, 135);
+    text-align: center;
+}
+
+.slayden-savnena1 {  
+    height: 74vw;
+    margin: 1vw auto;
+    max-height: 550px;
+    width: 60%;
+    overflow: hidden;
+    border: 5px solid rgb(222, 222, 222);
+    margin-bottom: 50px;
+    /* margin-top: 50px; */
+  }
+  .slayden-savnena2 {  
+    height: 74vw;
+    margin: 1vw auto;
+    max-height: 550px;
+    width: 60%;
+    overflow: hidden;
+    border: 5px solid rgb(222, 222, 222);
+    margin-bottom: 50px;
+    /* margin-top: 50px; */
+  }
+  .slayden-savnena3 {  
+    height: 74vw;
+    margin: 1vw auto;
+    max-height: 550px;
+    width: 60%;
+    overflow: hidden;
+    border: 5px solid rgb(222, 222, 222);
+    margin-bottom: 50px;
+    /* margin-top: 50px; */
+  }
+  .slayden-savnena1 figure {  
+    /* Первая часть: 2 картинка */
+    background-image: url(../img/home_after.jpg);
+    background-size: cover;
+    font-size: 0;
+    height: 100%;
+    margin: 0;  
+    position: relative;
+    width: 100%;  
+  }
+  .slayden-savnena2 figure { 
+    /* Вторая часть: 2 картинка */ 
+    background-image: url(../img/Polyana_after.jpg);
+    background-size: cover;
+    font-size: 0;
+    height: 100%;
+    margin: 0;  
+    position: relative;
+    width: 100%;  
+  }
+  .slayden-savnena3 figure {  
+    /* Третья часть: 2 картинка */
+    background-image: url(../img/Lab_after.jpeg);
+    background-size: cover;
+    font-size: 0;
+    height: 100%;
+    margin: 0;  
+    position: relative;
+    width: 100%;  
+  }
+  #obavenusab {
+    /* Первая часть: 1 картинка */
+    background-image: url(../img/home_before.jpg);
+    background-size: cover;
+    bottom: 0;
+    border-right: 5px solid rgba(243, 240, 240, 0.7);
+    box-shadow: 10px 0 15px -13px #171717;
+    height: 100%;
+    max-width: 98.6%;
+    min-width: 0.6%;
+    overflow: visible;
+    position: absolute;
+    width: 50%;  
+    animation: first 2s 1 normal ease-in-out 0.1s;  
+    -webkit-animation: first 2s 1 normal ease-in-out 0.1s; 
+  }
+  #kobavenusab {
+    /* Вторая часть: 1 картинка */ 
+    background-image: url(../img/Polyana_before.jpg);
+    background-size: cover;
+    bottom: 0;
+    border-right: 5px solid rgba(243, 240, 240, 0.7);
+    box-shadow: 10px 0 15px -13px #171717;
+    height: 100%;
+    max-width: 98.6%;
+    min-width: 0.6%;
+    overflow: visible;
+    position: absolute;
+    width: 50%;  
+    animation: first 2s 1 normal ease-in-out 0.1s;  
+    -webkit-animation: first 2s 1 normal ease-in-out 0.1s;  
+  }
+  #bavenusab {
+    /* Третья часть: 1 картинка */
+    background-image: url(../img/Lab_before.jpg);
+    background-size: cover;
+    bottom: 0;
+    border-right: 5px solid rgba(243, 240, 240, 0.7);
+    box-shadow: 10px 0 15px -13px #171717;
+    height: 100%;
+    max-width: 98.6%;
+    min-width: 0.6%;
+    overflow: visible;
+    position: absolute;
+    width: 50%;  
+    animation: first 2s 1 normal ease-in-out 0.1s;  
+    -webkit-animation: first 2s 1 normal ease-in-out 0.1s; 
+  }
+  input#pedsumid, input#edsumid, input#dsumid {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;  
+    background: transparent;
+    cursor: col-resize;
+    height: 100vw;
+    left: 0;
+    margin: 0;
+    outline: none;  
+    padding: 0;
+    position: relative;
+    top: -100vw;
+    width: 100%;
+  }
+  input#pedsumid::-moz-range-track, input#edsumid::-moz-range-track, input#dsumid::-moz-range-track {  
+    background: transparent;  
+  }
+  input#pedsumid::-ms-track, input#edsumid::-ms-track, input#dsumid::-ms-track {
+    border: none;  
+    background-color: transparent;
+    height: 100vw;  
+    left: 0;  
+    outline: none;  
+    position: relative;
+    top: -100vw;  
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: col-resize;
+    color:transparent;
+  }
+  input#pedsumid::-ms-fill-lower, input#edsumid::-ms-fill-lower, input#dsumid::-ms-fill-lower {
+    background-color:transparent;
+  }
+  input#pedsumid::-webkit-slider-thumb, input#edsumid::-webkit-slider-thumb, input#dsumid::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    height: 100vw;
+    width: 0.5%;
+    opacity: 0;
+  }
+  input#pedsumid::-moz-range-thumb, input#edsumid::-moz-range-thumb, input#dsumid::-moz-range-thumb {
+    -moz-appearance: none;
+    height: 100vw;
+    width: 0.5%;
+    opacity: 0;
+  }  
+  input#pedsumid::-ms-thumb, input#edsumid::-ms-thumb, input#dsumid::-ms-thumb {
+    height: 100vw;
+    width: 0.5%;  
+    opacity:0;
+  }
+  input#pedsumid::-ms-tooltip, input#edsumid::-ms-tooltip, input#dsumid::-ms-tooltip {
+    display:none;
+  }
+  #kobavenusab::before, #obavenusab::before, #bavenusab::before {
+    background: url(http://zornet.ru/ABVUN/Aba/detunis/comparision.png) no-repeat scroll 0 center transparent;
+    background-size:contain;
+    content: " ";
+    float: right;
+    height: 100%;
+    margin-right: -34px;
+    position: relative;
+    top:0;
+    width: 64px;
+  }
+  @keyframes first {
+    0% {width: 0%; }
+    50% {width: 80%; }
+    100% {width: 50%; }
+  }
+  @-webkit-keyframes first {
+    0% {width: 0%; }
+    50% {width: 80%; }
+    100% {width: 50%; }
+  }

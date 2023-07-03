@@ -17,15 +17,14 @@ export const fetchRequest = createAsyncThunk('request/fetch', async (_, thunkAPI
 
 export const addRequest = createAsyncThunk(
     'add/request',
-    async ({ name, number, adress, work }, thunkAPI) => {
-        console.log(name, number, adress, work);
+    async ({ name, number, adress, work, worker}, thunkAPI) => {
         try {
             const res = await fetch('http://localhost:3030/request', {
                 method: 'POST',
                 headers: {
                     'Content-Type': "application/json"
                 },
-                body: JSON.stringify({ name: name, adress: adress, number: number, work: work })
+                body: JSON.stringify({ name: name, adress: adress, number: number, work: work, worker: worker })
             })
 
             const request = await res.json()

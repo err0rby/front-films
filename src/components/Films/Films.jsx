@@ -22,6 +22,7 @@ const Films = () => {
                         <div className={style.filmCard}>
                             <img src={`http://localhost:3030/images/${film.image}`} alt='film' />
                         </div>
+                            <p>Компания: {film.name}</p>
                     </Link>
                 })}
             </div>
